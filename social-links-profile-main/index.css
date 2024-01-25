@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.div-body {
+  border-radius: 20px;
+  width: 35%;
+}
+
+.div-body img {
+  /* margin-top: 7rem; */
+  border-radius: 100%;
+  width: 30%;
+}
+
+.div-p {
+  color: chartreuse;
+  font-weight: bold;
+  width: 100%;
+}
+
+.div-body button {
+  border: none;
+  color: white;
+  background: rgba(128, 128, 128, 0.212);
+  padding: 8px;
+  border-radius: 10px;
+  width: 75%;
+}
+
+.div-body button:hover {
+  background: white;
+  color: black;
+}
+
+.div-body button:focus {
+  background: chartreuse;
+  color: black;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 576px) {
+  .div-body {
+    width: 100%;
+  }
+
+  .div-body button {
+    width: 100%;
+  }
+
+  .div-body img {
+    width: 75%;
+  }
+
+  .div-body h3 {
+    font-size: 17px;
+  }
+
+  .div-p {
+    font-size: 10px;
+  }
+
+  .div-body p {
+    font-size: 10px;
+  }
+}
